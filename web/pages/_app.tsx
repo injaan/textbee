@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ErrorBoundary>
       <Provider store={store}>
-        <Analytics />
-        <LiveChat />
+        {/* <Analytics /> */}
+        {/* <LiveChat /> */}
         <GoogleOAuthProvider
           clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID}
         >
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               <Component {...pageProps} />
             </Wrapper>
 
-            <div>
+            {/* <div>
               <a href='/customer-support'>
                 <Button
                   style={{
@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                   Support
                 </Button>
               </a>
-            </div>
+            </div> */}
             <Footer />
           </ChakraProvider>
         </GoogleOAuthProvider>
