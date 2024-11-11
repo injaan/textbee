@@ -126,7 +126,7 @@ export default function LoginPage() {
               </Button>
             </Stack>
 
-            <Box display='flex' justifyContent='center'>
+            {/* <Box display='flex' justifyContent='center'>
               <GoogleLogin
                 onSuccess={({ credential: idToken }) => {
                   dispatch(loginWithGoogle({ idToken }))
@@ -146,7 +146,7 @@ export default function LoginPage() {
                 theme='outline'
                 text='continue_with'
               />
-            </Box>
+            </Box> */}
             <Stack pt={6}>
               <Text align={'center'}>
                 Don&apos;t have an account?{' '}
