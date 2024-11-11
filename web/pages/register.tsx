@@ -137,7 +137,7 @@ export default function RegisterPage() {
             <Heading fontSize={'md'} textAlign={'center'}>
               OR
             </Heading>
-            <Box display='flex' justifyContent='center'>
+            {/* <Box display='flex' justifyContent='center'>
               <GoogleLogin
                 onSuccess={({ credential: idToken }) => {
                   dispatch(loginWithGoogle({ idToken }))
@@ -157,7 +157,7 @@ export default function RegisterPage() {
                 theme='outline'
                 text='continue_with'
               />
-            </Box>
+            </Box> */}
             <Stack pt={6}>
               <Text align={'center'}>
                 Already a user? <Link href='/login'>Login</Link>
