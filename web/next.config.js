@@ -10,7 +10,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/your-page', // Change this to your desired page
+        destination: '/login', // Change this to your desired page
         permanent: false,
       },
       // {
