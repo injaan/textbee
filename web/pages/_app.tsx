@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 </Button>
               </a>
             </div> */}
-            <Footer />
+            {/* <Footer /> */}
           </ChakraProvider>
         </GoogleOAuthProvider>
       </Provider>

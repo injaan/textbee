@@ -153,7 +153,7 @@ const DashboardTabView = () => {
         mobile app and click the Update button found right below the api key
         input. and this will update your token.
       </Alert> */}
-      <Alert status='info'>
+      {/* <Alert status='info'>
         <Grid
           templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }}
           gap={3}
@@ -175,7 +175,7 @@ const DashboardTabView = () => {
             </a>
           </GridItem>
         </Grid>
-      </Alert>
+      </Alert> */}
       <Tabs isLazy={false} index={tabIndex} onChange={setTabIndex}>
         <TabList>
           <Tab>API Key and Devices</Tab>
