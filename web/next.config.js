@@ -9,10 +9,15 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/android',
-        destination: 'https://dl.textbee.dev',
+        source: '/',
+        destination: '/your-page', // Change this to your desired page
         permanent: false,
       },
+      // {
+      //   source: '/android',
+      //   destination: 'https://dl.textbee.dev',
+      //   permanent: false,
+      // },
     ]
   },
 }

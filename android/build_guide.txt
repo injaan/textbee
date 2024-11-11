@@ -1,0 +1,3 @@
+build: ./gradlew clean build
+keygen: keytool -genkeypair -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+sign: apksigner sign --ks my-release-key.jks --ks-key-alias my-key-alias --out my-app-release.apk my-app-unsigned.apk
