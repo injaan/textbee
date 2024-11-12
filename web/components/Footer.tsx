@@ -56,7 +56,7 @@ export default function Footer() {
             {' '}
             Download App
           </Link>
-          <Link href='https://github.com/vernu/textbee'>Github</Link>
+          {/* <Link href='https://github.com/vernu/textbee'>Github</Link> */}
         </Stack>
       </Container>
 

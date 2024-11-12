@@ -62,7 +62,7 @@ export default function Navbar() {
                 style={{ borderRadius: '50%' }}
               />
               <Box style={{ cursor: 'pointer', marginLeft: '5px' }}>
-                TextBee
+                ServeSMS
               </Box>
             </Flex>
           </Link>
@@ -80,12 +80,12 @@ export default function Navbar() {
                 <MenuButton>Support</MenuButton>
               </Link>
             </Menu> */}
-
+{/* 
             <Menu>
               <Link href='https://github.com/vernu/textbee' passHref>
                 <MenuButton>Github</MenuButton>
               </Link>
-            </Menu>
+            </Menu> */}
 
             {!authUser && (
               <Menu>

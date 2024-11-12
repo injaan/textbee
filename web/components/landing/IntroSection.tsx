@@ -48,7 +48,7 @@ const AnimatedScreenshotImage = () => {
         overflow={'hidden'}
       >
         <Image
-          alt={'TextBee App Screenshot'}
+          alt={'ServeSMS App Screenshot'}
           fit={'cover'}
           align={'center'}
           src={'/images/smsgatewayandroid.png'}

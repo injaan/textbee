@@ -155,10 +155,10 @@ export default function GenerateApiKey() {
             {generatingApiKey ? 'loading... ' : 'Get Started'}
           </Button>
         </Flex>{' '}
-        <Flex>
+        {/* <Flex>
           Start sending SMS by clicking &quot;Get Started&quot; and scan the QR code or
-          paste the API Key in the TextBee Mobile App
-        </Flex>
+          paste the API Key in the ServeSMS Mobile App
+        </Flex> */}
       </Box>
       {generatedApiKey && (
         <>

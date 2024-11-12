@@ -19,7 +19,7 @@ export default function CodeSnippetSection() {
       tech: 'Node.Js',
       language: 'javascript',
       snippet: `
-    const BASE_URL = 'https://api.textbee.dev/api/v1'
+    const BASE_URL = 'https://sms.serve.mn/_api/api/v1'
     const API_KEY = 'YOUR_API_KEY'
     const DEVICE_ID = 'YOUR_DEVICE_ID'
     
@@ -36,7 +36,7 @@ export default function CodeSnippetSection() {
     {
       tech: 'cURL',
       language: 'shell',
-      snippet: `curl -X POST \ https://api.textbee.dev/api/v1/gateway/devices/<DEVICE_ID>/sendSMS \ -H 'x-api-key: <API_KEY>' \ -H 'Content-Type: application/json' \ -d '{ "recipients": ["+251912345678"], "message": "Hello World!" }'`,
+      snippet: `curl -X POST \ https://sms.serve.mn/_api/api/v1/gateway/devices/<DEVICE_ID>/sendSMS \ -H 'x-api-key: <API_KEY>' \ -H 'Content-Type: application/json' \ -d '{ "recipients": ["+251912345678"], "message": "Hello World!" }'`,
     },
   ]
 
@@ -70,7 +70,7 @@ export default function CodeSnippetSection() {
                   <Tab key={snippet.tech}>{snippet.tech}</Tab>
                 ))}
               </TabList>
-              <TabPanels>
+              {/* <TabPanels>
                 {codeSnippets.map((snippet) => {
                   return (
                     <TabPanel key={snippet.tech}>
@@ -80,7 +80,7 @@ export default function CodeSnippetSection() {
                     </TabPanel>
                   )
                 })}
-              </TabPanels>
+              </TabPanels> */}
             </Tabs>
           </Box>
         </Flex>

@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
       <chakra.h1>Privacy Policy</chakra.h1>
       <chakra.h2>Effective Date: May 2022</chakra.h2>
       <chakra.p>
-        Thank you for using our TextBee SMS Gateway Platform
+        Thank you for using our ServeSMS SMS Gateway Platform
         (&quot;Platform&quot;). This Privacy Policy is intended to inform you
         about how we collect, use, and disclose information when you use our
         Platform. We are committed to protecting your privacy and ensuring the
@@ -139,14 +139,14 @@ export default function PrivacyPolicyPage() {
       </chakra.p>
 
       <chakra.h2>8. Contact Us</chakra.h2>
-      <chakra.p>
+      {/* <chakra.p>
         If you have any questions or concerns about this Privacy Policy or our
         data practices, please contact us at{' '}
         <a href='mailto:textbee.dev@gmail.com' target='_blank'>
           textbee.dev@gmail.com
         </a>
         .
-      </chakra.p>
+      </chakra.p> */}
     </Container>
   )
 }

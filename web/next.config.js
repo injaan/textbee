@@ -15,7 +15,7 @@ const nextConfig = {
       },
       // {
       //   source: '/android',
-      //   destination: 'https://dl.textbee.dev',
+      //   destination: 'https://sms.serve.mn/dl',
       //   permanent: false,
       // },
     ]
