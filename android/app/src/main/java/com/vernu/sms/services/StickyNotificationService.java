@@ -72,10 +72,10 @@ public class StickyNotificationService extends Service {
             PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
 
             Notification.Builder builder = new Notification.Builder(this, notificationChannelId);
-            return builder.setContentTitle("TextBee is running").setContentText("TextBee is running in the background.").setContentIntent(pendingIntent).setOngoing(true).setSmallIcon(R.drawable.ic_launcher_foreground).build();
+            return builder.setContentTitle("ServeSMS is running").setContentText("ServeSMS is running in the background.").setContentIntent(pendingIntent).setOngoing(true).setSmallIcon(R.drawable.ic_launcher_foreground).build();
         } else {
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, notificationChannelId);
-            return builder.setContentTitle("TextBee is running").setContentText("TextBee is running in the background.").setOngoing(true).setSmallIcon(R.drawable.ic_launcher_foreground).build();
+            return builder.setContentTitle("ServeSMS is running").setContentText("ServeSMS is running in the background.").setOngoing(true).setSmallIcon(R.drawable.ic_launcher_foreground).build();
         }
 
     }

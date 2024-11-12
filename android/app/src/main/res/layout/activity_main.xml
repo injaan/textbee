@@ -214,7 +214,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="TextBee will only work if you grant SMS Permissions"
+                    android:text="ServeSMS will only work if you grant SMS Permissions"
                     android:textSize="14dp"
                     android:textStyle="italic" />
 
@@ -293,7 +293,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Go to textbee.dev/dashboard and click `generate API Key / Get started`, then copy and paste the API key generated or scan the QR code" />
+                    android:text="Go to dashboard and click `generate API Key / Get started`, then copy and paste the API key generated or scan the QR code" />
 
             </LinearLayout>
         </LinearLayout>
